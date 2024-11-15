@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-15T20:10:09 EET" name="Default suite" finished-at="2024-11-15T20:10:18 EET" duration-ms="9599">
+    <groups>
+    </groups>
+    <test started-at="2024-11-15T20:10:09 EET" name="Default test" finished-at="2024-11-15T20:10:18 EET" duration-ms="9599">
+      <class name="basketScenarioTest.BasketSenarioTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-15T20:10:05 EET" name="startDriver" finished-at="2024-11-15T20:10:09 EET" duration-ms="3722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="validateAddToBasketSenarioTest()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-15T20:10:09 EET" name="validateAddToBasketSenarioTest" finished-at="2024-11-15T20:10:18 EET" duration-ms="9528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToBasketSenarioTest -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-15T20:10:18 EET" name="stopDriver" finished-at="2024-11-15T20:10:18 EET" duration-ms="7" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "basketScenarioTest.BaseTest.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "basketScenarioTest.BaseTest.driver" is null
+at basketScenarioTest.BaseTest.stopDriver(BaseTest.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- basketScenarioTest.BasketSenarioTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
