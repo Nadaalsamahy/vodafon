@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-15T20:10:09 EET" name="Default suite" finished-at="2024-11-15T20:10:18 EET" duration-ms="9599">
+  <suite started-at="2024-11-16T21:52:37 EET" name="Default suite" finished-at="2024-11-16T21:52:51 EET" duration-ms="13786">
     <groups>
     </groups>
-    <test started-at="2024-11-15T20:10:09 EET" name="Default test" finished-at="2024-11-15T20:10:18 EET" duration-ms="9599">
+    <test started-at="2024-11-16T21:52:37 EET" name="Default test" finished-at="2024-11-16T21:52:51 EET" duration-ms="13786">
       <class name="basketScenarioTest.BasketSenarioTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-15T20:10:05 EET" name="startDriver" finished-at="2024-11-15T20:10:09 EET" duration-ms="3722" status="PASS">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-16T21:52:29 EET" name="startDriver" finished-at="2024-11-16T21:52:37 EET" duration-ms="8941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="validateAddToBasketSenarioTest()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-15T20:10:09 EET" name="validateAddToBasketSenarioTest" finished-at="2024-11-15T20:10:18 EET" duration-ms="9528" status="PASS">
+        <test-method signature="validateAddToBasketSenarioTest()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-16T21:52:38 EET" name="validateAddToBasketSenarioTest" finished-at="2024-11-16T21:52:51 EET" duration-ms="13679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToBasketSenarioTest -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-15T20:10:18 EET" name="stopDriver" finished-at="2024-11-15T20:10:18 EET" duration-ms="7" status="FAIL">
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:basketScenarioTest.BasketSenarioTest@723e88f9]" started-at="2024-11-16T21:52:51 EET" name="stopDriver" finished-at="2024-11-16T21:52:51 EET" duration-ms="8" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "basketScenarioTest.BaseTest.driver" is null]]>
